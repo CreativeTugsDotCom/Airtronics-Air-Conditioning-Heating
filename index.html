@@ -1,0 +1,1197 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airtronics Air Conditioning & Heating | Katy & Greater Houston HVAC</title>
+    <meta name="description" content="Dependable residential and commercial heating, cooling, diagnostics, and heat-load climate solutions in Katy and Greater Houston since 1982. Call (281) 855-8714.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            navy: '#0E1A2B',
+                            slate: '#1E293B',
+                            blue: '#0284C7',
+                            cyan: '#38BDF8',
+                            coral: '#EA580C',
+                            amber: '#F97316',
+                            bg: '#F8FAFC',
+                            border: '#E2E8F0'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+                        display: ['"Outfit"', 'sans-serif'],
+                        mono: ['"JetBrains Mono"', 'monospace']
+                    },
+                    boxShadow: {
+                        'subtle': '0 4px 20px -2px rgba(14, 26, 43, 0.06)',
+                        'elevated': '0 20px 40px -15px rgba(14, 26, 43, 0.1)',
+                        'cta': '0 10px 25px -5px rgba(234, 88, 12, 0.35)'
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Schema.org HVAC Business Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "HVACBusiness",
+      "name": "Airtronics Air Conditioning & Heating",
+      "image": "https://raw.githubusercontent.com/CreativeTugsDotCom/YT/refs/heads/main/03040a78-19f3-4cab-a49b-d4c70c8252ce.jpg",
+      "telephone": "+12818558714",
+      "email": "support@airtronicstx.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "18025 W. Little York Road, Suite A",
+        "addressLocality": "Katy",
+        "addressRegion": "TX",
+        "postalCode": "77449",
+        "addressCountry": "US"
+      },
+      "areaServed": ["Katy", "Cypress", "Houston", "Spring", "The Woodlands", "Tomball", "Sugar Land", "Richmond"],
+      "url": "https://www.airtronicstx.com/"
+    }
+    </script>
+
+    <style>
+        .hero-banner-bg {
+            background-color: #0E1A2B;
+            background-image: 
+                linear-gradient(180deg, rgba(14, 26, 43, 0.88) 0%, rgba(14, 26, 43, 0.72) 50%, rgba(14, 26, 43, 0.95) 100%),
+                url('https://raw.githubusercontent.com/CreativeTugsDotCom/YT/refs/heads/main/f1f028be-ba8e-4da3-9e05-7b157b252298.jpg');
+            background-size: cover;
+            background-position: center 30%;
+        }
+        
+        .page-view {
+            display: none;
+            opacity: 0;
+            transition: opacity 0.25s ease-in-out;
+        }
+        .page-view.active-page {
+            display: block;
+            opacity: 1;
+        }
+
+        .service-card-item {
+            display: flex;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .service-card-item:hover {
+            transform: translateY(-4px);
+        }
+    </style>
+</head>
+<body class="bg-brand-bg text-brand-slate font-sans antialiased selection:bg-brand-cyan/20 selection:text-brand-blue flex flex-col min-h-screen">
+
+    <!-- TOP VERIFIED DISPATCH BAR -->
+    <div class="bg-brand-navy text-white text-xs border-b border-white/10 py-2.5 px-4 sm:px-8">
+        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2">
+            <div class="flex items-center gap-2">
+                <span class="inline-flex items-center px-2 py-0.5 rounded text-[11px] font-bold bg-brand-blue/30 text-brand-cyan font-mono">
+                    TX LIC # TACLB009875E
+                </span>
+                <span class="text-slate-300">Serving Katy, Cypress & Greater Houston Since 1982</span>
+            </div>
+            <div class="flex items-center gap-5 text-slate-300">
+                <span class="hidden md:inline font-mono text-[11px] text-slate-400">18025 W. Little York Rd, Suite A, Katy</span>
+                <a href="tel:2818558714" class="text-white font-bold hover:text-brand-cyan transition-colors flex items-center gap-1.5 font-mono">
+                    <svg class="w-3.5 h-3.5 text-brand-amber fill-current" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 4V3z"/></svg>
+                    <span>(281) 855-8714</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- MAIN HEADER WITH LOGO & NAVIGATION -->
+    <header class="sticky top-0 z-40 bg-white/98 backdrop-blur-md border-b border-brand-border shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            
+            <!-- Authentic Airtronics Logo & Identity -->
+            <a href="javascript:void(0)" onclick="switchPage('home')" class="flex items-center gap-3.5 group focus:outline-none">
+                <div class="w-13 h-13 sm:w-14 sm:h-14 rounded-xl bg-white border border-slate-200 p-1 flex items-center justify-center shadow-sm group-hover:border-brand-blue transition-all">
+                    <img src="https://raw.githubusercontent.com/CreativeTugsDotCom/YT/refs/heads/main/03040a78-19f3-4cab-a49b-d4c70c8252ce.jpg" 
+                         alt="Airtronics Air Conditioning & Heating Logo" 
+                         class="w-full h-full object-contain">
+                </div>
+
+                <div class="flex flex-col">
+                    <div class="flex items-center gap-1.5">
+                        <span class="font-display font-extrabold text-xl sm:text-2xl tracking-tight text-brand-navy leading-none">
+                            AIRTRONICS
+                        </span>
+                        <span class="w-2 h-2 rounded-full bg-brand-coral"></span>
+                    </div>
+                    <span class="text-[11px] font-mono tracking-wider text-slate-500 uppercase font-semibold mt-1">
+                        Air Conditioning & Heating
+                    </span>
+                </div>
+            </a>
+
+            <!-- Desktop Page Navigation Tabs -->
+            <nav class="hidden md:flex items-center gap-2 bg-slate-100/80 p-1.5 rounded-xl border border-slate-200">
+                <button onclick="switchPage('home')" id="nav-tab-home" class="nav-tab-btn px-4 py-2 rounded-lg text-xs font-bold uppercase tracking-wider transition-all bg-white text-brand-navy shadow-sm border border-slate-200">
+                    Home
+                </button>
+                <button onclick="switchPage('services')" id="nav-tab-services" class="nav-tab-btn px-4 py-2 rounded-lg text-xs font-bold uppercase tracking-wider transition-all text-slate-600 hover:text-brand-navy">
+                    Services
+                </button>
+                <button onclick="switchPage('contact')" id="nav-tab-contact" class="nav-tab-btn px-4 py-2 rounded-lg text-xs font-bold uppercase tracking-wider transition-all text-slate-600 hover:text-brand-navy">
+                    About & Contact
+                </button>
+            </nav>
+
+            <!-- Direct CTA Actions -->
+            <div class="hidden lg:flex items-center gap-3">
+                <a href="tel:2818558714" class="px-4 py-2.5 rounded-xl border border-slate-200 hover:border-brand-blue text-brand-navy font-bold text-xs tracking-wide transition-all flex items-center gap-2 hover:bg-slate-50">
+                    <svg class="w-4 h-4 text-brand-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+                    <span>(281) 855-8714</span>
+                </a>
+                <button onclick="openServiceForm()" class="px-5 py-2.5 rounded-xl bg-brand-coral hover:bg-orange-600 text-white font-bold text-xs uppercase tracking-wider shadow-cta transition-all duration-200 flex items-center gap-2">
+                    <span>Request Service</span>
+                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+                </button>
+            </div>
+
+            <!-- Mobile Drawer Toggle -->
+            <div class="md:hidden flex items-center gap-2">
+                <a href="tel:2818558714" class="p-2 rounded-lg bg-brand-navy text-white text-xs font-bold" aria-label="Call Airtronics">
+                    <svg class="w-4 h-4 text-brand-amber fill-current" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 4V3z"/></svg>
+                </a>
+                <button onclick="toggleMobileNav()" class="p-2 rounded-lg text-slate-700 hover:bg-slate-100 focus:outline-none" aria-label="Toggle Navigation">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+                </button>
+            </div>
+
+        </div>
+
+        <!-- Mobile Drawer -->
+        <div id="mobile-drawer" class="hidden md:hidden bg-white border-b border-brand-border px-6 py-4 space-y-3">
+            <button onclick="switchPage('home'); toggleMobileNav();" class="block w-full text-left py-2 font-bold text-brand-navy border-b border-slate-100">
+                Home
+            </button>
+            <button onclick="switchPage('services'); toggleMobileNav();" class="block w-full text-left py-2 font-bold text-slate-700 border-b border-slate-100">
+                Services & Capabilities
+            </button>
+            <button onclick="switchPage('contact'); toggleMobileNav();" class="block w-full text-left py-2 font-bold text-slate-700 border-b border-slate-100">
+                About & Contact
+            </button>
+            <div class="pt-2">
+                <button onclick="openServiceForm(); toggleMobileNav();" class="w-full py-3 rounded-xl bg-brand-coral text-white font-bold text-xs uppercase tracking-wider shadow-cta">
+                    Request On-Site Service
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="flex-grow">
+        
+        <!-- =========================================================================
+             PAGE 1: HOME
+             ========================================================================= -->
+        <section id="page-home" class="page-view active-page">
+            
+            <!-- HERO SECTION -->
+            <div class="hero-banner-bg text-white py-20 lg:py-28 relative overflow-hidden border-b border-brand-navy">
+                <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+                    <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                        
+                        <div class="lg:col-span-7 space-y-6">
+                            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-xs font-semibold text-slate-200">
+                                <span class="w-2 h-2 rounded-full bg-brand-coral animate-pulse"></span>
+                                <span class="font-mono text-slate-300">KATY, TEXAS</span>
+                                <span class="text-white/40">/</span>
+                                <span class="text-brand-cyan">RESIDENTIAL & COMMERCIAL HVAC</span>
+                            </div>
+
+                            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-display font-extrabold tracking-tight leading-[1.1] text-white">
+                                Comfort is more than a <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-cyan via-white to-brand-amber">temperature.</span>
+                            </h1>
+
+                            <p class="text-base sm:text-lg text-slate-300 font-normal leading-relaxed max-w-2xl">
+                                From diagnostic repairs and precision installations to preventative maintenance and indoor air quality assessments, Airtronics helps homes and businesses across Greater Houston achieve reliable comfort.
+                            </p>
+
+                            <div class="pt-2 flex flex-col sm:flex-row items-stretch sm:items-center gap-4">
+                                <button onclick="openServiceForm()" class="px-8 py-4 rounded-xl bg-brand-coral hover:bg-orange-600 text-white font-bold text-xs uppercase tracking-wider shadow-cta transition-all duration-200 flex items-center justify-center gap-3">
+                                    <span>Request Service</span>
+                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+                                </button>
+                                <a href="tel:2818558714" class="px-7 py-4 rounded-xl bg-white/10 hover:bg-white/15 text-white border border-white/20 font-semibold text-xs uppercase tracking-wider transition-all flex items-center justify-center gap-2">
+                                    <svg class="w-4 h-4 text-brand-amber fill-current" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 4V3z"/></svg>
+                                    <span>Direct Call: (281) 855-8714</span>
+                                </a>
+                            </div>
+
+                            <p class="text-xs text-slate-400 font-mono pt-2">
+                                AC and heating service, system care and solutions for the spaces you depend on.
+                            </p>
+                        </div>
+
+                        <div class="lg:col-span-5">
+                            <div class="relative rounded-2xl overflow-hidden border-2 border-white/20 shadow-elevated bg-brand-navy">
+                                <img src="https://raw.githubusercontent.com/CreativeTugsDotCom/YT/refs/heads/main/Screenshot%202026-10-17%20033316.png" 
+                                     alt="Airtronics HVAC field diagnostic and equipment inspection" 
+                                     class="w-full h-80 sm:h-96 object-cover object-center"
+                                     loading="eager">
+                                <div class="absolute inset-0 bg-gradient-to-t from-brand-navy/90 via-transparent to-transparent"></div>
+                                <div class="absolute bottom-4 left-4 right-4 p-4 rounded-xl bg-white/95 backdrop-blur text-brand-navy border border-white/50 text-xs">
+                                    <div class="flex justify-between items-center font-bold mb-1">
+                                        <span class="font-display">Certified Field Diagnostics</span>
+                                        <span class="text-brand-blue font-mono">18025 W. Little York</span>
+                                    </div>
+                                    <p class="text-slate-600 text-[11px] leading-snug">
+                                        Testing subcooling, electrical draw, and mechanical condition before recommending repair or replacement.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- PROOF & FACTS STRIP -->
+            <div class="py-10 bg-white border-b border-brand-border">
+                <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+                        <div class="p-4 rounded-xl bg-slate-50 border border-slate-200">
+                            <span class="block text-2xl font-display font-extrabold text-brand-navy">1982</span>
+                            <span class="text-xs text-slate-500 font-medium">Started in Houston</span>
+                        </div>
+                        <div class="p-4 rounded-xl bg-slate-50 border border-slate-200">
+                            <span class="block text-2xl font-display font-extrabold text-brand-blue">Dual Path</span>
+                            <span class="text-xs text-slate-500 font-medium">Residential & Commercial</span>
+                        </div>
+                        <div class="p-4 rounded-xl bg-slate-50 border border-slate-200">
+                            <span class="block text-2xl font-display font-extrabold text-brand-coral">Manual J</span>
+                            <span class="text-xs text-slate-500 font-medium">Heat-Load Sizing</span>
+                        </div>
+                        <div class="p-4 rounded-xl bg-slate-50 border border-slate-200">
+                            <span class="block text-2xl font-display font-extrabold text-emerald-600">TACLB009875E</span>
+                            <span class="text-xs text-slate-500 font-medium">Texas HVAC License</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- HOME SERVICES SUMMARY -->
+            <div class="py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center max-w-2xl mx-auto mb-12">
+                    <span class="text-xs font-bold font-mono uppercase text-brand-blue tracking-wider block mb-1">PROVEN CAPABILITIES</span>
+                    <h2 class="text-3xl font-display font-bold text-brand-navy">Core Air Conditioning & Heating Services</h2>
+                    <p class="text-slate-600 text-sm mt-2">Dependable indoor climate solutions designed for Greater Houston's high-temperature, high-humidity climate.</p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-subtle flex flex-col justify-between">
+                        <div>
+                            <div class="w-10 h-10 rounded-xl bg-orange-50 text-brand-coral flex items-center justify-center font-bold text-sm mb-4">01</div>
+                            <h3 class="text-lg font-display font-bold text-brand-navy">Heating & AC Repair</h3>
+                            <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+                                Fast, thorough troubleshooting for compressors, fan motors, electrical contactors, capacitors, and refrigerant circuits across all equipment brands.
+                            </p>
+                        </div>
+                        <div class="pt-6 mt-6 border-t border-slate-100 flex items-center justify-between">
+                            <button onclick="switchPage('services')" class="text-xs font-bold text-brand-coral hover:underline">Learn More →</button>
+                            <button onclick="openServiceForm('Heating & AC Repair')" class="text-xs font-semibold text-slate-500 hover:text-brand-navy">Book Repair</button>
+                        </div>
+                    </div>
+
+                    <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-subtle flex flex-col justify-between">
+                        <div>
+                            <div class="w-10 h-10 rounded-xl bg-cyan-50 text-brand-blue flex items-center justify-center font-bold text-sm mb-4">02</div>
+                            <h3 class="text-lg font-display font-bold text-brand-navy">System Replacement & Sizing</h3>
+                            <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+                                Proper sizing using heat-load factors—square footage, sun exposure, and insulation. Matched AHRI-certified equipment for efficient dehumidification.
+                            </p>
+                        </div>
+                        <div class="pt-6 mt-6 border-t border-slate-100 flex items-center justify-between">
+                            <button onclick="switchPage('services')" class="text-xs font-bold text-brand-blue hover:underline">View Details →</button>
+                            <button onclick="openServiceForm('System Replacement & Sizing')" class="text-xs font-semibold text-slate-500 hover:text-brand-navy">Request Quote</button>
+                        </div>
+                    </div>
+
+                    <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-subtle flex flex-col justify-between">
+                        <div>
+                            <div class="w-10 h-10 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center font-bold text-sm mb-4">03</div>
+                            <h3 class="text-lg font-display font-bold text-brand-navy">Planned Service Agreement</h3>
+                            <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+                                Scheduled checkups covering condenser cleaning, electrical connections, condensate drain flush, and refrigerant pressure checks to extend system life.
+                            </p>
+                        </div>
+                        <div class="pt-6 mt-6 border-t border-slate-100 flex items-center justify-between">
+                            <button onclick="switchPage('services')" class="text-xs font-bold text-emerald-600 hover:underline">Check Plan →</button>
+                            <button onclick="openServiceForm('Planned Service Agreement')" class="text-xs font-semibold text-slate-500 hover:text-brand-navy">Enroll Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-10 p-6 rounded-2xl bg-brand-navy text-white flex flex-col sm:flex-row items-center justify-between gap-4">
+                    <div>
+                        <h4 class="font-display font-bold text-base">Explore All 8 Verified Airtronics Capabilities</h4>
+                        <p class="text-xs text-slate-300 mt-0.5">Including 24/7/365 on-call dispatch, remote camera inspections, and indoor air quality.</p>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <button onclick="switchPage('services')" class="px-5 py-2.5 rounded-xl bg-white text-brand-navy font-bold text-xs hover:bg-slate-100 transition-colors">
+                            Explore All Services
+                        </button>
+                        <button onclick="switchPage('contact')" class="px-5 py-2.5 rounded-xl bg-brand-coral text-white font-bold text-xs hover:bg-orange-600 transition-colors">
+                            Contact Us
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- =========================================================================
+             PAGE 2: SERVICES (ALL 8 CAPABILITIES WITH DEDICATED IMAGERY & DETAILS)
+             ========================================================================= -->
+        <section id="page-services" class="page-view">
+            
+            <!-- Page Header -->
+            <div class="bg-white border-b border-brand-border py-12">
+                <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <span class="text-xs font-mono font-bold uppercase text-brand-blue tracking-wider block mb-1">
+                        COMPREHENSIVE CLIMATE SOLUTIONS
+                    </span>
+                    <h1 class="text-3xl sm:text-4xl font-display font-extrabold text-brand-navy">
+                        Airtronics Services & Capabilities
+                    </h1>
+                    <p class="text-sm text-slate-600 mt-2 max-w-3xl">
+                        Explore our complete scope of residential and commercial climate services across Katy, Cypress, and Greater Houston—backed by over four decades of technical diagnosis and quality craftsmanship.
+                    </p>
+
+                    <!-- Interactive Category Filter Bar -->
+                    <div class="mt-8 flex flex-wrap items-center gap-2 pt-2 border-t border-slate-100">
+                        <button onclick="filterServices('all', this)" class="filter-btn px-4 py-2 rounded-xl text-xs font-bold uppercase tracking-wider bg-brand-navy text-white shadow-sm transition-colors">
+                            All 8 Services
+                        </button>
+                        <button onclick="filterServices('maintenance', this)" class="filter-btn px-4 py-2 rounded-xl text-xs font-bold uppercase tracking-wider bg-slate-100 text-slate-600 hover:bg-slate-200 transition-colors">
+                            System Checks & Maintenance
+                        </button>
+                        <button onclick="filterServices('iaq-diag', this)" class="filter-btn px-4 py-2 rounded-xl text-xs font-bold uppercase tracking-wider bg-slate-100 text-slate-600 hover:bg-slate-200 transition-colors">
+                            Air Quality & Camera Diagnostics
+                        </button>
+                        <button onclick="filterServices('commercial-247', this)" class="filter-btn px-4 py-2 rounded-xl text-xs font-bold uppercase tracking-wider bg-slate-100 text-slate-600 hover:bg-slate-200 transition-colors">
+                            24/7/365 & Commercial
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="py-12 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+                
+                <!-- ==========================================
+                     ANCHOR FEATURE: INSTALLATION & REPLACEMENT
+                     ========================================== -->
+                <div class="service-card-item bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-subtle grid grid-cols-1 lg:grid-cols-12 items-center" data-category="all">
+                    <div class="lg:col-span-5 h-72 sm:h-80 lg:h-full bg-slate-100 relative min-h-[300px]">
+                        <img src="https://raw.githubusercontent.com/CreativeTugsDotCom/YT/refs/heads/main/Screenshot%202026-10-14%20044726.png" 
+                             alt="Airtronics high-efficiency residential indoor HVAC air handler and duct plenum installation" 
+                             class="w-full h-full object-cover"
+                             loading="lazy">
+                        <div class="absolute inset-0 bg-gradient-to-t from-brand-navy/60 via-transparent to-transparent"></div>
+                        <span class="absolute top-4 left-4 px-3 py-1 rounded-full bg-white/95 text-brand-navy font-bold text-xs shadow-sm font-mono">
+                            CRAFTSMANSHIP & DUCTWORK
+                        </span>
+                    </div>
+
+                    <div class="lg:col-span-7 p-6 sm:p-10 space-y-4">
+                        <span class="text-xs font-bold font-mono text-brand-coral uppercase tracking-wider">ANCHOR CAPABILITY</span>
+                        <h2 class="text-2xl font-display font-bold text-brand-navy">
+                            Installation & System Replacement
+                        </h2>
+                        <h3 class="text-sm font-semibold text-brand-blue -mt-2">The right system starts with the right assessment.</h3>
+                        <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">
+                            System replacement should never rely on rule-of-thumb guesswork. In Houston's humid climate, an oversized unit causes short-cycling and clammy air, while an undersized unit runs constantly without cooling effectively. We evaluate square footage, window solar gain, and insulation levels to match proper capacity using Manual J calculations.
+                        </p>
+                        
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-slate-700 pt-2 font-medium">
+                            <div class="flex items-center gap-2"><span class="text-brand-blue font-bold">✓</span> Manual J thermal calculations</div>
+                            <div class="flex items-center gap-2"><span class="text-brand-blue font-bold">✓</span> Matched AHRI-certified equipment</div>
+                            <div class="flex items-center gap-2"><span class="text-brand-blue font-bold">✓</span> Static pressure & duct balancing</div>
+                            <div class="flex items-center gap-2"><span class="text-brand-blue font-bold">✓</span> Multi-brand equipment options</div>
+                        </div>
+
+                        <div class="pt-4 flex items-center gap-3">
+                            <button onclick="openServiceForm('System Replacement & Sizing')" class="px-6 py-3 rounded-xl bg-brand-coral hover:bg-orange-600 text-white font-bold text-xs uppercase tracking-wider transition-colors shadow-cta">
+                                Discuss New System
+                            </button>
+                            <a href="tel:2818558714" class="px-5 py-3 rounded-xl border border-slate-200 text-brand-navy font-bold text-xs hover:bg-slate-50 transition-colors">
+                                Call (281) 855-8714
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ==========================================
+                     GRID: THE 7 VERIFIED SERVICES WITH RICH IMAGERY
+                     ========================================== -->
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                    <!-- 1. Air Conditioning System Check -->
+                    <div class="service-card-item bg-white rounded-2xl border border-slate-200 shadow-sm flex flex-col justify-between overflow-hidden group" data-category="maintenance">
+                        <div>
+                            <div class="h-48 w-full bg-slate-100 relative overflow-hidden">
+                                <img src="https://www.airtronicstx.com/services/ac_check.jpg" 
+                                     alt="Technician conducting comprehensive air conditioning system check on outdoor condenser" 
+                                     class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                                     loading="lazy">
+                                <span class="absolute top-3 left-3 px-2.5 py-1 rounded-md bg-brand-navy/90 text-brand-cyan font-mono text-[11px] font-bold">
+                                    PRE-SUMMER COOLING
+                                </span>
+                            </div>
+                            <div class="p-6">
+                                <span class="text-xs font-mono text-brand-blue font-bold uppercase">DIAGNOSTIC INSPECTION</span>
+                                <h3 class="text-lg font-display font-bold text-brand-navy mt-1">Air Conditioning System Check</h3>
+                                <p class="text-xs text-slate-600 mt-2.5 leading-relaxed">
+                                    Having your cooling system serviced before the hotter months of the year is a great idea. During our check, we are able to identify any problems that may affect your system's efficiency or cooling capacity. This service entails a thorough inspection of each and every component of your air conditioning system.
+                                </p>
+                                <ul class="mt-4 space-y-1.5 text-xs text-slate-600 font-medium">
+                                    <li class="flex items-center gap-1.5"><span class="text-brand-coral">▪</span> Refrigerant operating pressure check</li>
+                                    <li class="flex items-center gap-1.5"><span class="text-brand-coral">▪</span> Electrical contactor & capacitor test</li>
+                                    <li class="flex items-center gap-1.5"><span class="text-brand-coral">▪</span> Condensate line flush & coil check</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="p-6 pt-0 border-t border-slate-100 flex items-center justify-between mt-4">
+                            <span class="text-xs font-mono text-slate-500">Seasonal Tune</span>
+                            <button onclick="openServiceForm('Air Conditioning System Check')" class="px-3.5 py-2 rounded-lg bg-slate-100 hover:bg-brand-coral hover:text-white text-brand-navy font-bold text-xs transition-colors">
+                                Schedule AC Check
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- 2. Heating System Check -->
+                    <div class="service-card-item bg-white rounded-2xl border border-slate-200 shadow-sm flex flex-col justify-between overflow-hidden group" data-category="maintenance">
+                        <div>
+                            <div class="h-48 w-full bg-slate-100 relative overflow-hidden">
+                                <img src="https://www.airtronicstx.com/services/heat_check.jpg" 
+                                     alt="Technician testing furnace heat exchanger and gas heating system safety" 
+                                     class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                                     loading="lazy">
+                                <span class="absolute top-3 left-3 px-2.5 py-1 rounded-md bg-brand-navy/90 text-brand-amber font-mono text-[11px] font-bold">
+                                    PRE-WINTER SAFETY
+                                </span>
+                            </div>
+                            <div class="p-6">
+                                <span class="text-xs font-mono text-brand-amber font-bold uppercase">SAFETY & HEATING</span>
+                                <h3 class="text-lg font-display font-bold text-brand-navy mt-1">Heating System Check</h3>
+                                <p class="text-xs text-slate-600 mt-2.5 leading-relaxed">
+                                    Just like the A/C check, it is important to have your heating system inspected before the winter season. Our heating system check includes a thorough inspection of your complete heating system including the detection of carbon monoxide and gas leaks.
+                                </p>
+                                <ul class="mt-4 space-y-1.5 text-xs text-slate-600 font-medium">
+                                    <li class="flex items-center gap-1.5"><span class="text-emerald-600">▪</span> Carbon monoxide safety sensor check</li>
+                                    <li class="flex items-center gap-1.5"><span class="text-emerald-600">▪</span> Combustible gas leak detection</li>
+                                    <li class="flex items-center gap-1.5"><span class="text-emerald-600">▪</span> Heat exchanger & burner inspection</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="p-6 pt-0 border-t border-slate-100 flex items-center justify-between mt-4">
+                            <span class="text-xs font-mono text-slate-500">Gas & Electric</span>
+                            <button onclick="openServiceForm('Heating System Check')" class="px-3.5 py-2 rounded-lg bg-slate-100 hover:bg-brand-amber hover:text-white text-brand-navy font-bold text-xs transition-colors">
+                                Book Heating Check
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- 3. Preventative Maintenance Programs (P.S.A.) -->
+                    <div class="service-card-item bg-white rounded-2xl border-2 border-emerald-500/30 shadow-sm flex flex-col justify-between overflow-hidden relative group" data-category="maintenance">
+                        <div class="absolute top-3 right-3 z-10">
+                            <span class="px-2.5 py-0.5 rounded-full bg-emerald-600 text-white font-mono text-[10px] font-bold uppercase tracking-wider">
+                                2 Visits / Year
+                            </span>
+                        </div>
+                        <div>
+                            <div class="h-48 w-full bg-slate-100 relative overflow-hidden">
+                                <img src="https://www.airtronicstx.com/services/prev_maint2.jpg" 
+                                     alt="Technician carrying out 25-point preventative maintenance agreement inspection" 
+                                     class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                                     loading="lazy">
+                                <span class="absolute top-3 left-3 px-2.5 py-1 rounded-md bg-brand-navy/90 text-emerald-400 font-mono text-[11px] font-bold">
+                                    25-POINT INSPECTION
+                                </span>
+                            </div>
+                            <div class="p-6">
+                                <span class="text-xs font-mono text-emerald-600 font-bold uppercase">PLANNED CARE (P.S.A.)</span>
+                                <h3 class="text-lg font-display font-bold text-brand-navy mt-1">Preventative Maintenance Programs</h3>
+                                <p class="text-xs text-slate-600 mt-2.5 leading-relaxed">
+                                    A Preventative Service Agreement (P.S.A.) is a great way to maintain your air conditioning and heating system while receiving discounts and other advantages. Our P.S.A. consists of 2 visits a year where a 25 point inspection will be performed on your system. These inspections ensure your system is operating at peak performance and identify any potential problems.
+                                </p>
+                                <div class="mt-4 p-3 rounded-xl bg-emerald-50 border border-emerald-100 flex items-center justify-between">
+                                    <span class="text-xs font-bold text-emerald-800">Complete 25-Point Checklist</span>
+                                    <button onclick="openPsaModal()" class="text-xs font-bold text-emerald-700 underline hover:text-emerald-900">
+                                        View Points →
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-6 pt-0 border-t border-slate-100 flex items-center justify-between mt-4">
+                            <span class="text-xs font-mono text-emerald-700 font-bold">Priority Status</span>
+                            <button onclick="openServiceForm('Preventative Maintenance Programs (P.S.A.)')" class="px-3.5 py-2 rounded-lg bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs transition-colors shadow-sm">
+                                Enroll in P.S.A.
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- 4. Indoor Air Quality Consultation -->
+                    <div class="service-card-item bg-white rounded-2xl border border-slate-200 shadow-sm flex flex-col justify-between overflow-hidden group" data-category="iaq-diag">
+                        <div>
+                            <div class="h-48 w-full bg-slate-100 relative overflow-hidden">
+                                <img src="https://www.airtronicstx.com/services/iaq_experts.jpg" 
+                                     alt="Technician reviewing whole home air cleaner and filtration media" 
+                                     class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                                     loading="lazy">
+                                <span class="absolute top-3 left-3 px-2.5 py-1 rounded-md bg-brand-navy/90 text-brand-cyan font-mono text-[11px] font-bold">
+                                    COMFORT INSTITUTE TRAINED
+                                </span>
+                            </div>
+                            <div class="p-6">
+                                <span class="text-xs font-mono text-brand-blue font-bold uppercase">FILTRATION & HEALTH</span>
+                                <h3 class="text-lg font-display font-bold text-brand-navy mt-1">Indoor Air Quality Consultation</h3>
+                                <p class="text-xs text-slate-600 mt-2.5 leading-relaxed">
+                                    We have invested an immense amount of time and money on training our technicians to be proficient in the detection of indoor air quality issues. Our technicians receive training, consulting and support from the most qualified indoor air quality company in North America, The Comfort Institute.
+                                </p>
+                                <ul class="mt-4 space-y-1.5 text-xs text-slate-600 font-medium">
+                                    <li class="flex items-center gap-1.5"><span class="text-brand-blue">▪</span> Dust, pollen, and particle analysis</li>
+                                    <li class="flex items-center gap-1.5"><span class="text-brand-blue">▪</span> Humidity and moisture balance review</li>
+                                    <li class="flex items-center gap-1.5"><span class="text-brand-blue">▪</span> Advanced media filtration options</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="p-6 pt-0 border-t border-slate-100 flex items-center justify-between mt-4">
+                            <span class="text-xs font-mono text-slate-500">Whole-Home IAQ</span>
+                            <button onclick="openServiceForm('Indoor Air Quality Consultation')" class="px-3.5 py-2 rounded-lg bg-slate-100 hover:bg-brand-blue hover:text-white text-brand-navy font-bold text-xs transition-colors">
+                                Book Consultation
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- 5. Remote Camera Capability -->
+                    <div class="service-card-item bg-white rounded-2xl border border-slate-200 shadow-sm flex flex-col justify-between overflow-hidden group" data-category="iaq-diag">
+                        <div>
+                            <div class="h-48 w-full bg-slate-100 relative overflow-hidden">
+                                <img src="https://www.airtronicstx.com/services/remote_camera.jpg" 
+                                     alt="Technician utilizing fiber-optic remote inspection camera inside concealed duct run" 
+                                     class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                                     loading="lazy">
+                                <span class="absolute top-3 left-3 px-2.5 py-1 rounded-md bg-brand-navy/90 text-slate-200 font-mono text-[11px] font-bold">
+                                    BEHIND WALLS & DUCTS
+                                </span>
+                            </div>
+                            <div class="p-6">
+                                <span class="text-xs font-mono text-slate-600 font-bold uppercase">OPTICAL DIAGNOSTICS</span>
+                                <h3 class="text-lg font-display font-bold text-brand-navy mt-1">Remote Camera Capability</h3>
+                                <p class="text-xs text-slate-600 mt-2.5 leading-relaxed">
+                                    We use remote cameras to detect problems behind walls, inside air ducts and many other hard to reach areas. Using these remote cameras, we are able to thoroughly inspect your system and spot problems others may have missed.
+                                </p>
+                                <ul class="mt-4 space-y-1.5 text-xs text-slate-600 font-medium">
+                                    <li class="flex items-center gap-1.5"><span class="text-slate-700">▪</span> Spot disconnected or crushed duct runs</li>
+                                    <li class="flex items-center gap-1.5"><span class="text-slate-700">▪</span> Inspect internal plenum integrity</li>
+                                    <li class="flex items-center gap-1.5"><span class="text-slate-700">▪</span> Non-invasive inspection behind drywall</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="p-6 pt-0 border-t border-slate-100 flex items-center justify-between mt-4">
+                            <span class="text-xs font-mono text-slate-500">Camera Inspection</span>
+                            <button onclick="openServiceForm('Remote Camera Capability')" class="px-3.5 py-2 rounded-lg bg-slate-100 hover:bg-slate-800 hover:text-white text-brand-navy font-bold text-xs transition-colors">
+                                Request Camera Scan
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- 6. 24/7/365 Service -->
+                    <div class="service-card-item bg-white rounded-2xl border border-slate-200 shadow-sm flex flex-col justify-between overflow-hidden group" data-category="commercial-247">
+                        <div>
+                            <div class="h-48 w-full bg-slate-100 relative overflow-hidden">
+                                <img src="https://www.airtronicstx.com/services/247_365.jpg" 
+                                     alt="Airtronics emergency response on-call HVAC dispatch van" 
+                                     class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                                     loading="lazy">
+                                <span class="absolute top-3 left-3 px-2.5 py-1 rounded-md bg-brand-coral text-white font-mono text-[11px] font-bold">
+                                    ROUND-THE-CLOCK
+                                </span>
+                            </div>
+                            <div class="p-6">
+                                <span class="text-xs font-mono text-brand-coral font-bold uppercase">ON-CALL RESPONSE</span>
+                                <h3 class="text-lg font-display font-bold text-brand-navy mt-1">24/7/365 Service</h3>
+                                <p class="text-xs text-slate-600 mt-2.5 leading-relaxed">
+                                    We employ an on-call staff consisting of a manager and two factory trained technicians to take care of our customers during weekends, after-hours and holidays. Our technicians carry $5,000 worth of parts on every service truck to ensure we can finalize the repair on the first visit in most cases.
+                                </p>
+                                <div class="mt-4 p-3 rounded-xl bg-orange-50 border border-orange-100 text-xs text-brand-navy font-mono font-medium">
+                                    $5,000 replacement parts on every truck
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-6 pt-0 border-t border-slate-100 flex items-center justify-between mt-4">
+                            <a href="tel:2818558714" class="text-xs font-bold text-brand-coral hover:underline font-mono">
+                                (281) 855-8714
+                            </a>
+                            <button onclick="openServiceForm('24/7/365 Emergency Service')" class="px-3.5 py-2 rounded-lg bg-brand-coral hover:bg-orange-600 text-white font-bold text-xs transition-colors shadow-sm">
+                                Dispatch Service
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- 7. Residential and Commercial Service & Installation -->
+                    <div class="service-card-item md:col-span-2 lg:col-span-3 bg-white rounded-2xl border border-slate-200 shadow-sm flex flex-col lg:flex-row justify-between overflow-hidden" data-category="commercial-247">
+                        <div class="lg:w-1/3 h-56 lg:h-auto bg-slate-100 relative overflow-hidden">
+                            <img src="https://www.airtronicstx.com/services/res_com.jpg" 
+                                 alt="Commercial building rooftop package units and climate control" 
+                                 class="w-full h-full object-cover">
+                            <span class="absolute top-3 left-3 px-2.5 py-1 rounded-md bg-brand-navy/90 text-brand-cyan font-mono text-[11px] font-bold">
+                                NEARLY 3 DECADES
+                            </span>
+                        </div>
+                        <div class="lg:w-2/3 p-6 sm:p-8 flex flex-col justify-between">
+                            <div>
+                                <span class="text-xs font-mono text-brand-blue font-bold uppercase">DUAL CAPABILITY</span>
+                                <h3 class="text-xl font-display font-bold text-brand-navy mt-1">Residential and Commercial Service & Installation</h3>
+                                <p class="text-xs sm:text-sm text-slate-600 mt-2.5 leading-relaxed">
+                                    We have been providing professional service and installation to homes and businesses in your area for almost 3 decades. Our factory certified technicians and installers are trained to provide exceptional service in any setting.
+                                </p>
+                                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-4 text-xs font-medium text-slate-700">
+                                    <div class="p-3 rounded-xl bg-slate-50 border border-slate-200">
+                                        <strong class="text-brand-navy block mb-0.5">Residential HVAC</strong>
+                                        Single-family homes, multi-stage heat pumps, zoning systems, and attic efficiency.
+                                    </div>
+                                    <div class="p-3 rounded-xl bg-slate-50 border border-slate-200">
+                                        <strong class="text-brand-navy block mb-0.5">Commercial HVAC</strong>
+                                        Offices, retail storefronts, tenant build-outs, and scheduled maintenance windows.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pt-6 mt-6 border-t border-slate-100 flex flex-wrap items-center justify-between gap-3">
+                                <span class="text-xs text-slate-500 font-mono">Factory Certified Technicians</span>
+                                <div class="flex items-center gap-2">
+                                    <button onclick="openServiceForm('Residential HVAC Service')" class="px-4 py-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-brand-navy font-bold text-xs transition-colors">
+                                        Residential Inquiry
+                                    </button>
+                                    <button onclick="openServiceForm('Commercial HVAC Service')" class="px-4 py-2 rounded-xl bg-brand-navy hover:bg-slate-800 text-white font-bold text-xs transition-colors shadow-sm">
+                                        Commercial Inquiry
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- =========================================================================
+             PAGE 3: ABOUT & CONTACT
+             ========================================================================= -->
+        <section id="page-contact" class="page-view">
+            
+            <div class="bg-white border-b border-brand-border py-12">
+                <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <span class="text-xs font-mono font-bold uppercase text-brand-blue tracking-wider block mb-1">
+                        HERITAGE & DISPATCH
+                    </span>
+                    <h1 class="text-3xl sm:text-4xl font-display font-extrabold text-brand-navy">
+                        About Airtronics & Contact Dispatch
+                    </h1>
+                    <p class="text-sm text-slate-600 mt-2 max-w-2xl">
+                        Over four decades serving Katy, Cypress, and Greater Houston with reliable technical diagnosis and prompt service.
+                    </p>
+                </div>
+            </div>
+
+            <div class="py-12 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+                    
+                    <!-- Left: Verified Information -->
+                    <div class="lg:col-span-5 space-y-8">
+                        
+                        <div class="bg-white p-6 sm:p-8 rounded-2xl border border-slate-200 shadow-subtle space-y-4">
+                            <span class="px-3 py-1 rounded-full bg-slate-100 text-brand-navy font-mono font-bold text-xs">
+                                ESTABLISHED 1982
+                            </span>
+                            <h2 class="text-xl font-display font-bold text-brand-navy">
+                                Four Decades of Hands-On HVAC Experience
+                            </h2>
+                            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                                In 1982, Aaron Naeseth started a small air conditioning and heating business out of his home in Houston. Built on honest diagnosis, technical competence, and quality workmanship, Airtronics has grown into a trusted provider for residential and commercial customers.
+                            </p>
+                            <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 text-xs text-slate-600 font-medium">
+                                <strong class="text-brand-navy block mb-0.5">Physical Dispatch Office:</strong>
+                                18025 W. Little York Road, Suite A, Katy, Texas 77449
+                            </div>
+                        </div>
+
+                        <div class="bg-white p-6 sm:p-8 rounded-2xl border border-slate-200 shadow-subtle space-y-4">
+                            <h3 class="text-base font-display font-bold text-brand-navy">Service Territory</h3>
+                            <p class="text-xs text-slate-600">
+                                Primary coverage across West and Northwest Houston, with direct routing along I-10, US-290, and SH-99 Grand Parkway:
+                            </p>
+                            <div class="flex flex-wrap gap-1.5 text-xs font-medium">
+                                <span class="px-2.5 py-1 rounded-lg bg-brand-navy text-white font-bold">Katy (Hub)</span>
+                                <span class="px-2.5 py-1 rounded-lg bg-slate-100 text-slate-700">Cypress</span>
+                                <span class="px-2.5 py-1 rounded-lg bg-slate-100 text-slate-700">Houston</span>
+                                <span class="px-2.5 py-1 rounded-lg bg-slate-100 text-slate-700">Spring</span>
+                                <span class="px-2.5 py-1 rounded-lg bg-slate-100 text-slate-700">The Woodlands</span>
+                                <span class="px-2.5 py-1 rounded-lg bg-slate-100 text-slate-700">Tomball</span>
+                                <span class="px-2.5 py-1 rounded-lg bg-slate-100 text-slate-700">Sugar Land</span>
+                                <span class="px-2.5 py-1 rounded-lg bg-slate-100 text-slate-700">Richmond</span>
+                            </div>
+                        </div>
+
+                        <div class="p-6 rounded-2xl bg-brand-navy text-white space-y-3">
+                            <span class="text-xs font-mono text-slate-400 uppercase">DIRECT DISPATCH DESK</span>
+                            <a href="tel:2818558714" class="text-2xl font-display font-bold text-brand-amber hover:text-white transition-colors flex items-center gap-2">
+                                <svg class="w-6 h-6 fill-current" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 4V3z"/></svg>
+                                <span>(281) 855-8714</span>
+                            </a>
+                            <p class="text-xs text-slate-300">
+                                Email: <a href="mailto:support@airtronicstx.com" class="text-white hover:text-brand-cyan underline">support@airtronicstx.com</a>
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <!-- Right: Verified Form -->
+                    <div class="lg:col-span-7 bg-white p-6 sm:p-10 rounded-2xl border border-slate-200 shadow-elevated">
+                        <div class="border-b border-slate-100 pb-4 mb-6">
+                            <h2 class="text-2xl font-display font-bold text-brand-navy">Request HVAC Service</h2>
+                            <p class="text-xs text-slate-500 mt-1">Submit your details below and our Katy dispatch team will review your request.</p>
+                        </div>
+
+                        <div id="service-form-alert" class="hidden mb-6 p-4 rounded-xl bg-emerald-50 border border-emerald-200 text-emerald-800 text-xs">
+                            <div class="flex items-center gap-2 font-bold text-sm">
+                                <svg class="w-5 h-5 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                                <span>Request Submitted</span>
+                            </div>
+                            <p class="mt-1 text-emerald-700">
+                                Thank you. Your inquiry has been routed to Airtronics dispatch. A representative will contact you shortly at the phone number provided.
+                            </p>
+                        </div>
+
+                        <form id="airtronics-inquiry-form" onsubmit="handleFormSubmit(event)" class="space-y-4">
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                <div>
+                                    <label for="form-name" class="block text-xs font-bold text-slate-700 mb-1 uppercase tracking-wider">Full Name *</label>
+                                    <input type="text" id="form-name" required placeholder="John Doe"
+                                           class="w-full px-4 py-3 rounded-xl bg-slate-50 border border-slate-200 text-sm text-brand-navy focus:bg-white focus:outline-none focus:border-brand-blue">
+                                </div>
+                                <div>
+                                    <label for="form-phone" class="block text-xs font-bold text-slate-700 mb-1 uppercase tracking-wider">Phone Number *</label>
+                                    <input type="tel" id="form-phone" required placeholder="(281) 000-0000"
+                                           class="w-full px-4 py-3 rounded-xl bg-slate-50 border border-slate-200 text-sm text-brand-navy focus:bg-white focus:outline-none focus:border-brand-blue">
+                                </div>
+                            </div>
+
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                <div>
+                                    <label for="form-email" class="block text-xs font-bold text-slate-700 mb-1 uppercase tracking-wider">Email Address *</label>
+                                    <input type="email" id="form-email" required placeholder="name@domain.com"
+                                           class="w-full px-4 py-3 rounded-xl bg-slate-50 border border-slate-200 text-sm text-brand-navy focus:bg-white focus:outline-none focus:border-brand-blue">
+                                </div>
+                                <div>
+                                    <label for="form-zip" class="block text-xs font-bold text-slate-700 mb-1 uppercase tracking-wider">ZIP Code *</label>
+                                    <input type="text" id="form-zip" required placeholder="77449" pattern="[0-9]{5}"
+                                           class="w-full px-4 py-3 rounded-xl bg-slate-50 border border-slate-200 text-sm text-brand-navy focus:bg-white focus:outline-none focus:border-brand-blue">
+                                </div>
+                            </div>
+
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                <div>
+                                    <label for="form-property" class="block text-xs font-bold text-slate-700 mb-1 uppercase tracking-wider">Property Type</label>
+                                    <select id="form-property" class="w-full px-4 py-3 rounded-xl bg-slate-50 border border-slate-200 text-sm text-brand-navy focus:bg-white focus:outline-none focus:border-brand-blue">
+                                        <option value="residential">Residential Property</option>
+                                        <option value="commercial">Commercial Facility</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label for="form-service" class="block text-xs font-bold text-slate-700 mb-1 uppercase tracking-wider">Service Needed</label>
+                                    <select id="form-service" class="w-full px-4 py-3 rounded-xl bg-slate-50 border border-slate-200 text-sm text-brand-navy focus:bg-white focus:outline-none focus:border-brand-blue">
+                                        <option value="repair">AC or Heating Repair</option>
+                                        <option value="replacement">System Replacement & Sizing</option>
+                                        <option value="ac-check">Air Conditioning System Check</option>
+                                        <option value="heating-check">Heating System Check</option>
+                                        <option value="psa">Preventative Maintenance Programs (P.S.A.)</option>
+                                        <option value="iaq">Indoor Air Quality Consultation</option>
+                                        <option value="emergency">24/7/365 On-Call Emergency Service</option>
+                                        <option value="commercial">Residential & Commercial Service/Installation</option>
+                                        <option value="camera">Remote Camera Diagnostic Capability</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div>
+                                <label for="form-message" class="block text-xs font-bold text-slate-700 mb-1 uppercase tracking-wider">Describe the System Concern</label>
+                                <textarea id="form-message" rows="3" placeholder="Tell us what you are observing or need addressed..."
+                                          class="w-full px-4 py-3 rounded-xl bg-slate-50 border border-slate-200 text-sm text-brand-navy focus:bg-white focus:outline-none focus:border-brand-blue"></textarea>
+                            </div>
+
+                            <button type="submit" id="form-submit-btn" class="w-full py-4 rounded-xl bg-brand-coral hover:bg-orange-600 text-white font-bold text-xs uppercase tracking-wider shadow-cta transition-all">
+                                Submit Service Request
+                            </button>
+
+                            <p class="text-[11px] text-slate-400 text-center">
+                                Direct communication with Airtronics dispatch. Your privacy is respected.
+                            </p>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- 25-POINT PSA CHECKLIST MODAL -->
+    <div id="psa-modal" class="fixed inset-0 z-50 hidden items-center justify-center bg-black/60 backdrop-blur-sm p-4 overflow-y-auto" role="dialog" aria-modal="true">
+        <div class="relative w-full max-w-2xl bg-white rounded-2xl shadow-2xl p-6 sm:p-8 my-8 text-brand-navy border border-slate-200">
+            <div class="flex items-center justify-between border-b border-slate-100 pb-4">
+                <div>
+                    <span class="text-xs font-mono font-bold text-emerald-600 uppercase">PREVENTATIVE SERVICE AGREEMENT (P.S.A.)</span>
+                    <h3 class="text-xl font-display font-bold text-brand-navy">25-Point Inspection Protocol</h3>
+                </div>
+                <button onclick="closePsaModal()" class="text-slate-400 hover:text-slate-700 p-2 rounded-lg" aria-label="Close Modal">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+                </button>
+            </div>
+
+            <div class="mt-4 space-y-4 text-xs text-slate-600 max-h-[60vh] overflow-y-auto pr-2">
+                <p class="leading-relaxed">
+                    Our P.S.A. includes two dedicated checkups per year to maintain peak performance, extend compressor life, and protect your indoor environment:
+                </p>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div class="p-4 rounded-xl bg-slate-50 border border-slate-200">
+                        <strong class="text-brand-blue font-display text-sm block mb-2">Summer Cooling Tune-Up</strong>
+                        <ul class="space-y-1.5 font-medium">
+                            <li>✓ Test operating refrigerant pressures</li>
+                            <li>✓ Inspect condenser coils & clean debris</li>
+                            <li>✓ Test capacitors & contactor points</li>
+                            <li>✓ Check evaporator coil condition</li>
+                            <li>✓ Measure blower motor amp draw</li>
+                            <li>✓ Flush & treat condensate drain line</li>
+                            <li>✓ Calibrate thermostat differential</li>
+                            <li>✓ Check return air temperature drop</li>
+                            <li>✓ Tighten all high-voltage electrical lugs</li>
+                            <li>✓ Inspect safety float switch</li>
+                        </ul>
+                    </div>
+
+                    <div class="p-4 rounded-xl bg-slate-50 border border-slate-200">
+                        <strong class="text-brand-amber font-display text-sm block mb-2">Winter Heating Tune-Up</strong>
+                        <ul class="space-y-1.5 font-medium">
+                            <li>✓ Electronic carbon monoxide test</li>
+                            <li>✓ Test for combustible gas leaks</li>
+                            <li>✓ Inspect heat exchanger for cracks</li>
+                            <li>✓ Clean & adjust burner assembly</li>
+                            <li>✓ Test ignition system & flame sensor</li>
+                            <li>✓ Inspect flue pipe & chimney draft</li>
+                            <li>✓ Check limit switches & safeties</li>
+                            <li>✓ Test blower assembly operation</li>
+                            <li>✓ Check electrical disconnect switch</li>
+                            <li>✓ Complete visual safety sign-off</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between">
+                <span class="text-xs text-slate-500 font-mono">2 Visits / Year Included</span>
+                <button onclick="closePsaModal(); openServiceForm('Preventative Maintenance Programs (P.S.A.)');" class="px-5 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs uppercase tracking-wider transition-colors shadow-sm">
+                    Enroll in P.S.A.
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="bg-brand-navy py-12 text-xs text-slate-400 border-t border-white/10 mt-auto">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-6 border-b border-white/10 pb-8">
+                
+                <div class="flex items-center gap-3">
+                    <div class="w-10 h-10 rounded-lg bg-white p-1 flex items-center justify-center">
+                        <img src="https://raw.githubusercontent.com/CreativeTugsDotCom/YT/refs/heads/main/03040a78-19f3-4cab-a49b-d4c70c8252ce.jpg" 
+                             alt="Airtronics Emblem" 
+                             class="w-full h-full object-contain">
+                    </div>
+                    <div>
+                        <span class="text-white font-display font-bold text-sm block">Airtronics Air Conditioning & Heating</span>
+                        <span class="text-slate-400 text-[11px]">18025 W. Little York Road, Suite A, Katy, TX 77449</span>
+                    </div>
+                </div>
+
+                <div class="flex flex-wrap items-center gap-6 text-[12px]">
+                    <a href="tel:2818558714" class="hover:text-brand-cyan transition-colors font-mono">(281) 855-8714</a>
+                    <a href="mailto:support@airtronicstx.com" class="hover:text-brand-cyan transition-colors">support@airtronicstx.com</a>
+                    <button onclick="switchPage('services')" class="hover:text-brand-cyan transition-colors">Services</button>
+                    <button onclick="switchPage('contact')" class="hover:text-brand-cyan transition-colors">Contact</button>
+                </div>
+
+            </div>
+
+            <div class="mt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-[11px]">
+                <p>© <span id="copyright-year"></span> Airtronics Air Conditioning & Heating. Texas License # TACLB009875E.</p>
+                <p>Comfort starts with understanding your home.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 20-SECOND TIMED SERVICE POPUP PROMPT -->
+    <aside id="timed-cta-popup" 
+           class="fixed bottom-6 right-6 z-50 max-w-sm w-full bg-white text-brand-navy p-5 rounded-2xl border border-slate-200 shadow-2xl transition-all duration-300 transform translate-y-36 opacity-0 pointer-events-none"
+           role="dialog" 
+           aria-labelledby="cta-popup-title" 
+           aria-hidden="true">
+        
+        <div class="flex items-start justify-between">
+            <div class="flex items-center gap-2">
+                <span class="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                <span class="text-[11px] font-bold text-brand-blue uppercase tracking-wider font-mono">Katy Dispatch</span>
+            </div>
+            <button onclick="dismissTimedPopup()" class="text-slate-400 hover:text-slate-600 p-1 rounded-lg focus:outline-none" aria-label="Close notification">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+            </button>
+        </div>
+
+        <div class="mt-2">
+            <h4 id="cta-popup-title" class="text-sm font-display font-bold text-brand-navy">Need help with your HVAC system?</h4>
+            <p class="text-xs text-slate-500 mt-1 leading-relaxed">
+                Airtronics provides heating and cooling service for homes and businesses across Katy and Greater Houston.
+            </p>
+        </div>
+
+        <div class="mt-4 flex items-center gap-2">
+            <button onclick="openServiceForm(); dismissTimedPopup(true);" class="flex-1 text-center bg-brand-coral hover:bg-orange-600 text-white font-bold text-xs uppercase tracking-wider py-2.5 px-3 rounded-xl transition-colors shadow-cta">
+                Request Service
+            </button>
+            <a href="tel:2818558714" class="inline-flex items-center justify-center bg-slate-100 hover:bg-slate-200 text-brand-navy font-bold py-2.5 px-3.5 rounded-xl text-xs transition-colors">
+                <svg class="w-3.5 h-3.5 mr-1 text-brand-coral fill-current" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 4V3z"/></svg>
+                Call
+            </a>
+        </div>
+    </aside>
+
+    <!-- JAVASCRIPT CONTROLLERS -->
+    <script>
+        /* 1. Page Switcher */
+        function switchPage(pageId) {
+            const pages = ['home', 'services', 'contact'];
+            
+            pages.forEach(p => {
+                const el = document.getElementById(`page-${p}`);
+                if (el) {
+                    if (p === pageId) {
+                        el.style.display = 'block';
+                        void el.offsetHeight;
+                        el.classList.add('active-page');
+                        el.style.opacity = '1';
+                    } else {
+                        el.classList.remove('active-page');
+                        el.style.opacity = '0';
+                        el.style.display = 'none';
+                    }
+                }
+            });
+
+            // Update Desktop Nav Tabs Styling
+            pages.forEach(t => {
+                const btn = document.getElementById(`nav-tab-${t}`);
+                if (btn) {
+                    if (t === pageId) {
+                        btn.className = "nav-tab-btn px-4 py-2 rounded-lg text-xs font-bold uppercase tracking-wider transition-all bg-white text-brand-navy shadow-sm border border-slate-200";
+                    } else {
+                        btn.className = "nav-tab-btn px-4 py-2 rounded-lg text-xs font-bold uppercase tracking-wider transition-all text-slate-600 hover:text-brand-navy";
+                    }
+                }
+            });
+
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        /* 2. Mobile Navigation Drawer Toggle */
+        function toggleMobileNav() {
+            const drawer = document.getElementById('mobile-drawer');
+            if (drawer) {
+                drawer.classList.toggle('hidden');
+            }
+        }
+
+        /* 3. Open Contact Form with Preselected Service */
+        function openServiceForm(preselectedService) {
+            switchPage('contact');
+            
+            if (preselectedService) {
+                const selectEl = document.getElementById('form-service');
+                if (selectEl) {
+                    const target = preselectedService.toLowerCase();
+                    for (let i = 0; i < selectEl.options.length; i++) {
+                        const opt = selectEl.options[i].text.toLowerCase();
+                        if (opt.includes(target) || target.includes(opt)) {
+                            selectEl.selectedIndex = i;
+                            break;
+                        }
+                    }
+                }
+            }
+
+            setTimeout(() => {
+                const formEl = document.getElementById('airtronics-inquiry-form');
+                if (formEl) {
+                    formEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    const nameInput = document.getElementById('form-name');
+                    if (nameInput) nameInput.focus();
+                }
+            }, 250);
+        }
+
+        /* 4. Services Filter */
+        function filterServices(category, btnElement) {
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                btn.className = "filter-btn px-4 py-2 rounded-xl text-xs font-bold uppercase tracking-wider bg-slate-100 text-slate-600 hover:bg-slate-200 transition-colors";
+            });
+            if (btnElement) {
+                btnElement.className = "filter-btn px-4 py-2 rounded-xl text-xs font-bold uppercase tracking-wider bg-brand-navy text-white shadow-sm transition-colors";
+            }
+
+            const cards = document.querySelectorAll('.service-card-item');
+            cards.forEach(card => {
+                const cardCat = card.getAttribute('data-category');
+                if (category === 'all' || cardCat === category || cardCat === 'all') {
+                    card.style.display = 'flex';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+
+        /* 5. 25-Point PSA Modal Handlers */
+        function openPsaModal() {
+            const modal = document.getElementById('psa-modal');
+            if (modal) {
+                modal.classList.remove('hidden');
+                modal.classList.add('flex');
+                document.body.style.overflow = 'hidden';
+            }
+        }
+
+        function closePsaModal() {
+            const modal = document.getElementById('psa-modal');
+            if (modal) {
+                modal.classList.add('hidden');
+                modal.classList.remove('flex');
+                document.body.style.overflow = '';
+            }
+        }
+
+        /* 6. 20-Second Timed Service Request Prompt */
+        let timedPopupTimer = null;
+        let timedPopupCount = 0;
+
+        function scheduleNextPopup(delayMs) {
+            if (sessionStorage.getItem('airtronics_popup_dismissed') === 'true') return;
+            if (timedPopupCount >= 3) return;
+
+            timedPopupTimer = setTimeout(() => {
+                const popup = document.getElementById('timed-cta-popup');
+                if (popup && sessionStorage.getItem('airtronics_popup_dismissed') !== 'true') {
+                    popup.classList.remove('translate-y-36', 'opacity-0', 'pointer-events-none');
+                    popup.classList.add('translate-y-0', 'opacity-100', 'pointer-events-auto');
+                    popup.setAttribute('aria-hidden', 'false');
+                    timedPopupCount++;
+                }
+            }, delayMs);
+        }
+
+        function dismissTimedPopup(permanent = false) {
+            const popup = document.getElementById('timed-cta-popup');
+            if (popup) {
+                popup.classList.add('translate-y-36', 'opacity-0', 'pointer-events-none');
+                popup.classList.remove('translate-y-0', 'opacity-100', 'pointer-events-auto');
+                popup.setAttribute('aria-hidden', 'true');
+            }
+
+            if (permanent) {
+                sessionStorage.setItem('airtronics_popup_dismissed', 'true');
+                if (timedPopupTimer) clearTimeout(timedPopupTimer);
+            } else {
+                if (timedPopupCount < 3) {
+                    scheduleNextPopup(20000);
+                }
+            }
+        }
+
+        /* 7. Form Submission Handler */
+        function handleFormSubmit(e) {
+            e.preventDefault();
+            dismissTimedPopup(true);
+
+            const submitBtn = document.getElementById('form-submit-btn');
+            const alertBox = document.getElementById('service-form-alert');
+
+            if (submitBtn) {
+                submitBtn.disabled = true;
+                submitBtn.textContent = 'Submitting Request...';
+            }
+
+            setTimeout(() => {
+                if (submitBtn) {
+                    submitBtn.disabled = false;
+                    submitBtn.textContent = 'Request Sent Successfully';
+                    submitBtn.classList.remove('bg-brand-coral');
+                    submitBtn.classList.add('bg-emerald-600');
+                }
+
+                if (alertBox) {
+                    alertBox.classList.remove('hidden');
+                    alertBox.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                }
+
+                const form = document.getElementById('airtronics-inquiry-form');
+                if (form) form.reset();
+            }, 750);
+        }
+
+        /* 8. Initialization */
+        document.addEventListener('DOMContentLoaded', () => {
+            const yearSpan = document.getElementById('copyright-year');
+            if (yearSpan) yearSpan.textContent = new Date().getFullYear();
+
+            const formInputs = document.querySelectorAll('#airtronics-inquiry-form input, #airtronics-inquiry-form select, #airtronics-inquiry-form textarea');
+            formInputs.forEach(input => {
+                input.addEventListener('focus', () => dismissTimedPopup(true));
+            });
+
+            const psaModal = document.getElementById('psa-modal');
+            if (psaModal) {
+                psaModal.addEventListener('click', (e) => {
+                    if (e.target === psaModal) closePsaModal();
+                });
+            }
+
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'Escape') closePsaModal();
+            });
+
+            switchPage('home');
+            scheduleNextPopup(20000);
+        });
+    </script>
+</body>
+</html>
